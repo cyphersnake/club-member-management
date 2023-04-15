@@ -1,3 +1,20 @@
+# Substrate Assessment
+
+> Write a pallet for club member management.Two roles in the club, root can create a new club, club owner can add someone to club. Need to pay some token to create a new club, the club owner can be transferred, club owner can set the annual expense for club membership account needs to pay a token to be a member based on annual expenses, max is 100 years membership will be expired, and need renewal
+
+## Requirement
+- Develop a pallet for club member management.
+- Implement three roles within the pallet:
+  - Root user, who can create a new club.
+  - Club owner, who can add members to the club and manage club settings.
+  - Club member, who can join the club and participate in club activities.
+- Require a payment in tokens to create a new club.
+- Allow the club owner to transfer ownership to another user.
+- Enable the club owner to set the annual expense for club membership.
+- Require a token payment from accounts to become a member, based on the annual expense set by the club owner.
+- Limit the maximum membership duration to 100 years.
+- Implement membership expiration and renewal functionality for club members.
+
 # Substrate Node Template
 
 A fresh [Substrate](https://substrate.io/) node, ready for hacking :rocket:
